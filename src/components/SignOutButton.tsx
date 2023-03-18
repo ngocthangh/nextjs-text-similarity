@@ -2,7 +2,8 @@
 // cannot use same component with SignInButton because cannot using client component inside server component and pass a function
 
 import { FC, useState } from 'react';
-import Button from './ui/Button';
+import Button from '@/ui/Button';
+import { toast } from '@/ui/Toast';
 
 interface SignOutButtonProps {}
 
